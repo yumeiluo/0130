@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>排版</title>
+    <meta name="description" content="格線項目（子元素）的寬度「grid-template-columns 屬性」">
+
+    <link rel="icon" href="/images/favicon.ico">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    
+    <style>
+        .container {
+        display: grid;
+        text-align: center;
+        /* grid-template-columns: 200px 200px 200px; */
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 200px 200px;
+        gap: 10px;
+        }
+
+        .item {
+        background: #0bd;
+        color: #fff;
+        padding: 10px;
+        }
+
+        .big-box{
+            grid-column: 1/3;
+            grid-row: 1/3;;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+        <div class="item">Item 4</div>
+        <div class="item">Item 5</div>
+        <div class="item">Item 6</div>
+    </div>
+    <br>
+    <div class="container">
+        <div class="item"><img src="/images/salmon_1280.png" width="400px"></div>
+        <div class="item"><img src="/images/Swordfish_1280.png" width="400px"></div>
+        <div class="item"><img src="/images/yellow-fish_1920.png" width="400px"></div>
+    </div>
+</body>
+</html>

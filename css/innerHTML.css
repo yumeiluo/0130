@@ -1,0 +1,19 @@
+.red1{ color:red;}
+.red2{background: red;}
+.darkblue{background: darkblue;}
+
+.div1{
+    background: #1f8e9c;
+    color:white;
+    font-family: Microsoft JhengHei;
+    width: 500px;
+    height: 300px;
+}
+
+.div2{
+    background-image: url(/images/Simon.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>渲染 h3 的內容在網頁上</title>
+    <link rel="icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href="css/reset.min.css">
+</head>
+<body>
+    <!-- <h3 id="Hello" style="color:red;font-family:'Times New Roman';"></h3> -->
+    <h3 id="Hello" style="color:red;font-family:'Times New Roman'; font-size:100px;"></h3>
+
+    <script>
+        document.querySelector('#Hello').textContent='Hello World!';
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>渲染 div 內容在網頁上</title>
+    <link rel="icon" href="/images/favicon.ico">
+
+    <style>
+        .red{ color:red;    
+              /* font-size: 100px; */
+        }
+    </style>
+
+</head>
+<body>
+    <div id="Hello" class="red">1234</div>
+
+    <script>
+        document.querySelector('#Hello').textContent='Hello World!';
+    </script>
+</body>
+</html>
